@@ -1,28 +1,83 @@
-# LibreTranslate
+# 🌍 AI Dialect Translator
 
-[Try it online!](https://libretranslate.com) | [API Docs](https://docs.libretranslate.com) | [Community Forum](https://community.libretranslate.com/) | [Bluesky](https://bsky.app/profile/libretranslate.com)
+AI Dialect Translator is a multilingual translation web application built using LibreTranslate and Python. It enables users to translate text from multiple languages into English through a simple and user-friendly interface.
 
-[![Python versions](https://img.shields.io/pypi/pyversions/libretranslate)](https://pypi.org/project/libretranslate) [![Run tests](https://github.com/LibreTranslate/LibreTranslate/workflows/Run%20tests/badge.svg)](https://github.com/LibreTranslate/LibreTranslate/actions?query=workflow%3A%22Run+tests%22) [![Build and Publish Docker Image](https://github.com/LibreTranslate/LibreTranslate/actions/workflows/publish-docker.yml/badge.svg)](https://github.com/LibreTranslate/LibreTranslate/actions/workflows/publish-docker.yml) [![Publish package](https://github.com/LibreTranslate/LibreTranslate/actions/workflows/publish-package.yml/badge.svg)](https://github.com/LibreTranslate/LibreTranslate/actions/workflows/publish-package.yml) [![Awesome Humane Tech](https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true)](https://codeberg.org/teaserbot-labs/delightful-humane-design)
+## ✨ Features
 
-Free and Open Source Machine Translation API, entirely self-hosted. Unlike other APIs, it doesn't rely on proprietary software such as Google or Azure to perform translations. Instead, its translation engine is powered by the open source [Argos Translate](https://github.com/argosopentech/argos-translate) library.
+* Translate between 20+ languages
+* Clean and responsive web interface
+* Fast translation processing
+* Open-source and self-hosted
+* Easy deployment on cloud platforms such as Render
 
-![Translation](https://github.com/user-attachments/assets/457696b5-dbff-40ab-a18e-7bfb152c5121)
+## 🛠️ Tech Stack
 
-## Getting Started
+* Python
+* Flask
+* LibreTranslate
+* HTML
+* CSS
+* JavaScript
 
-- [Quickstart](https://docs.libretranslate.com/)
-- [Usage Instructions](https://docs.libretranslate.com/guides/api_usage/)
-- [Community Resources](https://docs.libretranslate.com/community/resources/)
+## 🚀 Installation
 
-## Credits
+### Clone the Repository
 
-This work is largely possible thanks to [Argos Translate](https://github.com/argosopentech/argos-translate), which powers the translation engine.
+```bash
+git clone https://github.com/niketha121107/AI-Dialect-Translator.git
+cd AI-Dialect-Translator
+```
 
-## License
+### Create Virtual Environment
 
-[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.en.html)
+```bash
+python -m venv venv
+```
 
-## Trademark
+### Activate Virtual Environment
 
-See [Trademark Guidelines](https://github.com/LibreTranslate/LibreTranslate/blob/main/TRADEMARK.md)
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python main.py
+```
+
+## 📷 Screenshots
+
+<img width="1512" height="546" alt="image" src="https://github.com/user-attachments/assets/5c7b0a9e-bb83-4f3a-a710-6b3097d7b45d" />
+
+
+## 🌐 Live Demo
+
+Coming Soon
+
+## 📌 Future Improvements
+
+* AI-powered dialect detection
+* Voice-to-text translation
+* Speech synthesis
+* Real-time translation API
+* Mobile-friendly interface
+
+## 👨‍💻 Author
+
+Niketha
+
+GitHub: https://github.com/niketha121107
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
 
