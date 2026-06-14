@@ -1321,7 +1321,7 @@ def create_app(args):
     swag = swagger(app)
     swag["basePath"] = args.url_prefix if args.url_prefix != "" else "/"
     swag["info"]["version"] = get_version()
-    swag["info"]["title"] = "LibreTranslate"
+    swag["info"]["title"] = "AI dialect translator"
     swag["info"]["description"] = "Free and Open Source Machine Translation API."
     swag["info"]["license"] = {"name": "AGPL-3.0"}
 
